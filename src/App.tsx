@@ -3,7 +3,7 @@ import './App.css'
 
 function App() {
   const [scrollY, setScrollY] = useState(0)
-  const [typedText, setTypedText] = useState('')
+  const [typedText, setTypedText] = useState('A') // start with first char to avoid blank title
   const fullText = 'ARC-AGI-3'
 
   useEffect(() => {
@@ -296,7 +296,7 @@ function App() {
             </div>
           </div>
           <div className="compete-cta">
-            <a href="https://www.kaggle.com/competitions/arc-prize-2026-arc-agi-3/leaderboard" target="_blank" rel="noopener" className="btn btn-primary btn-large">
+            <a href="https://www.kaggle.com/competitions/arc-prize-2026-arc-agi-3/leaderboard" target="_blank" rel="noopener noreferrer" className="btn btn-primary btn-large">
               <span>View Leaderboard</span>
               <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
                 <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/>
@@ -304,7 +304,7 @@ function App() {
                 <line x1="10" y1="14" x2="21" y2="3"/>
               </svg>
             </a>
-            <a href="https://github.com/arcprize" target="_blank" rel="noopener" className="btn btn-outline">
+            <a href="https://github.com/arcprize" target="_blank" rel="noopener noreferrer" className="btn btn-outline">
               <span>Explore GitHub</span>
             </a>
           </div>
@@ -320,22 +320,22 @@ function App() {
           <div className="footer-links">
             <div className="footer-col">
               <h5>Benchmark</h5>
-              <a href="https://arcprize.org/arc-agi" target="_blank" rel="noopener">ARC-AGI Series</a>
-              <a href="https://arcprize.org/arc-agi/1" target="_blank" rel="noopener">ARC-AGI-1</a>
-              <a href="https://arcprize.org/arc-agi/2" target="_blank" rel="noopener">ARC-AGI-2</a>
-              <a href="https://arcprize.org/tasks" target="_blank" rel="noopener">All Tasks</a>
+              <a href="https://arcprize.org/arc-agi" target="_blank" rel="noopener noreferrer">ARC-AGI Series</a>
+              <a href="https://arcprize.org/arc-agi/1" target="_blank" rel="noopener noreferrer">ARC-AGI-1</a>
+              <a href="https://arcprize.org/arc-agi/2" target="_blank" rel="noopener noreferrer">ARC-AGI-2</a>
+              <a href="https://arcprize.org/tasks" target="_blank" rel="noopener noreferrer">All Tasks</a>
             </div>
             <div className="footer-col">
               <h5>Competition</h5>
-              <a href="https://arcprize.org/competitions/2026" target="_blank" rel="noopener">ARC Prize 2026</a>
-              <a href="https://arcprize.org/leaderboard" target="_blank" rel="noopener">Leaderboard</a>
-              <a href="https://arcprize.org/research" target="_blank" rel="noopener">Research</a>
+              <a href="https://arcprize.org/competitions/2026" target="_blank" rel="noopener noreferrer">ARC Prize 2026</a>
+              <a href="https://arcprize.org/leaderboard" target="_blank" rel="noopener noreferrer">Leaderboard</a>
+              <a href="https://arcprize.org/research" target="_blank" rel="noopener noreferrer">Research</a>
             </div>
             <div className="footer-col">
               <h5>Community</h5>
-              <a href="https://discord.gg/9b77dPAmcA" target="_blank" rel="noopener">Discord</a>
-              <a href="https://twitter.com/arcprize" target="_blank" rel="noopener">Twitter</a>
-              <a href="https://github.com/arcprize" target="_blank" rel="noopener">GitHub</a>
+              <a href="https://discord.gg/9b77dPAmcA" target="_blank" rel="noopener noreferrer">Discord</a>
+              <a href="https://twitter.com/arcprize" target="_blank" rel="noopener noreferrer">Twitter</a>
+              <a href="https://github.com/arcprize" target="_blank" rel="noopener noreferrer">GitHub</a>
             </div>
           </div>
         </div>
